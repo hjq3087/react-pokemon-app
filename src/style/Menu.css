@@ -1,0 +1,33 @@
+nav {
+    background-color: #20232a;
+    display: flex;
+}
+
+nav ul {
+    flex: 3;
+    display: flex;
+    align-items: center;
+}
+
+nav div {
+    text-align: center;
+    flex: 1;
+}
+nav div img {
+    width: 200px;
+}
+
+nav ul li {
+    flex: 1;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    display: inline-block;
+}
+
+.active {
+    color: #61dafb;
+    border-bottom: 1px solid #61dafb;
+}
